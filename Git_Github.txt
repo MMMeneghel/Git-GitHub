@@ -14,15 +14,26 @@
 	11.2) git commit -m "descrição da alteração".
 	11.3) git push.
 12) git reflog -> ver o histórico de versões do repositório.
-13) git pull -> trazer as atualizações do servidor para a máquina local.
+13) IMPORTANTE!!! git pull -> trazer as atualizações do servidor para a máquina local.
 
 BRANCH
-Locais de armazenamento de versões
-Geralmente enviamos para a branch "master"
+*Locais temporários de armazenamento de versões
+*Geralmente enviamos para a branch "master"
+*Usado em trabalhos em equipe
 1) git branch -> ver branches existentes do repositório.
 2) git branch NOME_DA_BRANCH -> cria novo branch.
 3) git checkout NOME_DA_BRANCH -> entra no branch.
+	3.1) git checkout -b NOME_DA_BRANCH master -> cria e já entra no novo branch.
 4) git push --set-upstream origin NOME_DA_BRANCH -> adiciona ao repositório no novo branch. 
 5) git checkout master -> voltar para branch principal.
-6) git merge NOME-_DA_BRANCH -> unir o branch criado no branch principal.
+6) git merge NOME_DA_BRANCH -> unir o branch criado no branch principal.
+7) git push.
+
+GIT IGNORE
+1) touch .gitignore
+2) Cria um arquivo no repositório.
+3) Abrir o arquivo no Bloco de Notas.
+4) Escrever o caminho de todos os arquivos que o git deve "ignorar".
+5) git add ".gitignome".
+6) git commit.
 7) git push.
