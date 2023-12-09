@@ -14,3 +14,11 @@
 	11.2) git commit -m "descrição da alteração".
 	11.3) git push.
 12) git reflog -> ver o histórico de versões do repositório.
+
+BRANCH
+Locais de armazenamento de versões
+Geralmente enviamos para a branch "master"
+1) git branch -> ver branches existentes do repositório.
+2) git branch NOME_DA_BRANCH -> cria novo branch.
+3) git checkout NOME_DA_BRANCH -> entra no branch.
+4) git push --set-upstream origin NOME_DA_BRANCH -> adiciona ao repositório no novo branch. 
