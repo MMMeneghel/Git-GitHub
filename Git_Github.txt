@@ -1,0 +1,16 @@
+1) Criar novo repositório (pasta).
+2) Botão direito -> GIT Bash Here.
+3) Prompt de Comando do Git.
+4) git init -> inicia o git no repositório.
+5) git status -> ver como está os arquivos do repositório.
+6) git add "nome do arquivo" -> inserir o arquivo no controle de versões.
+	6.1) git add . -> adiciona todos os arquivos no controle de versões.
+7) git commit -m "descrição das alterações, infos necessárias" -> adicionar à nuvem github.
+8) Criar repositório no github ou usar um existente.
+9) git remote add origin https://github.com/MMMeneghel/NOME DO REPOSITÓRIO.git -> define para onde o arquivo está sendo enviado.
+10) git push --set-upstream origin master -> adiciona ao repositório criado no branch principal.
+11) Adionar novas atualizações/versões no controle de versões github.
+	11.1) git add "nome do arquivo".
+	11.2) git commit -m "descrição da alteração".
+	11.3) git push.
+12) git reflog -> ver o histórico de versões do repositório.
