@@ -14,6 +14,7 @@
 	11.2) git commit -m "descrição da alteração".
 	11.3) git push.
 12) git reflog -> ver o histórico de versões do repositório.
+13) git pull -> trazer as atualizações do servidor para a máquina local.
 
 BRANCH
 Locais de armazenamento de versões
@@ -22,3 +23,6 @@ Geralmente enviamos para a branch "master"
 2) git branch NOME_DA_BRANCH -> cria novo branch.
 3) git checkout NOME_DA_BRANCH -> entra no branch.
 4) git push --set-upstream origin NOME_DA_BRANCH -> adiciona ao repositório no novo branch. 
+5) git checkout master -> voltar para branch principal.
+6) git merge NOME-_DA_BRANCH -> unir o branch criado no branch principal.
+7) git push.
