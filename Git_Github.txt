@@ -1,7 +1,8 @@
-1) Criar novo repositório (pasta).
+1) Criar novo diretório (pasta).
 2) Botão direito -> GIT Bash Here.
 3) Prompt de Comando do Git.
-4) git init -> inicia o git no repositório.
+4) git init -> inicializar um repositório Git dentro de um diretório do sistema.
+	4.1) git clone https://github.com/MMMeneghel/NOME DO REPOSITÓRIO.git -> cópia no computador local desse repositório que está no GitHub, na nuvem.
 5) git status -> ver como está os arquivos do repositório.
 6) git add "nome do arquivo" -> inserir o arquivo no controle de versões.
 	6.1) git add . -> adiciona todos os arquivos no controle de versões.
@@ -14,7 +15,7 @@
 	11.2) git commit -m "descrição da alteração".
 	11.3) git push.
 12) git reflog -> ver o histórico de versões do repositório.
-13) IMPORTANTE!!! git pull -> trazer as atualizações do servidor para a máquina local.
+13) IMPORTANTE!!! git pull -> trazer as atualizações mais recentes do servidor para a máquina local.
 
 BRANCH
 *Locais temporários de armazenamento de versões
