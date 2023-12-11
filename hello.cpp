@@ -1,12 +1,8 @@
 #include <iostream>
-
-void print(){
-    std::cout << "Bom dia Mundo";
-}
+#include "print.h"
 
 int main(){
 
-    std::cout << "Hello World!\n";
     print();
 
     return 0;
