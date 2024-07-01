@@ -1,3 +1,5 @@
+GIT-GITHUB STEPS
+
 1) Criar novo diretório (pasta).
 2) Botão direito -> GIT Bash Here.
 3) Prompt de Comando do Git.
